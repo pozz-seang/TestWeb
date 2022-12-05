@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+}
+
+.menu{
+    background-color: rgb(255, 94, 94);
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+}
+
+.menu ul{
+    width: 100%;
+}
+
+.menu ul li{
+    width: 100%;
+    display: flex;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 70px;
+    font-family: 'Zen Dots', cursive;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+
+.menu ul:hover li a{
+    opacity: 0.4;
+    filter: blur(1px);
+}
+
+.menu ul li a:hover{
+    opacity: 1;
+    filter: blur(0px);
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+
+.con{
+    width: 100%;
+    height: 100vh;
+}
+
+.a{
+    width: 100%;
+    height: 100vh;
+}
+
+#home{
+    background-color: blue;
+}
+#fashions{
+    background-color: goldenrod;
+}
+#mobiles{
+    background-color: rebeccapurple;
+}
+#furnitures{
+    background-color: greenyellow;
+}
